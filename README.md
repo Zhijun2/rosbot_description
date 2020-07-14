@@ -27,12 +27,6 @@ cd ~/ros_workspace/src
 git clone https://github.com/husarion/rosbot_description.git
 ```
 
-Install depencencies:
-
-```
-cd ~/ros_workspace
-rosdep install --from-paths src --ignore-src -r -y
-```
 
 Build the workspace:
 
@@ -45,6 +39,12 @@ From this moment you can use rosbot simulations. Please remember that each time,
 
 ```
 source ~/ros_workspace/devel/setup.sh
+```
+
+Install slam_gmapping package:
+
+```
+sudo apt install ros-melodic-slam-gmapping
 ```
 
 ## How to use ##
